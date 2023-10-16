@@ -5,7 +5,8 @@ const  DeveloperPage = () => {
   const detailsfromdb = [
     { id : 1, name: 'Yash', role: 'Senior Developer'},
     { id : 2, name: 'Vaibhav', role: 'Backend Developer'},
-    { id : 3, name: 'Suresh', role: 'Frontend Developer'}
+    { id : 3, name: 'Suresh', role: 'Frontend Developer'},
+    { id : 4, name: 'Karthik', role: 'FullStack Developer'}
   ]
   const developerId = router.query.developerId;
   const developerDetails = detailsfromdb.find(x => x.id == developerId);
